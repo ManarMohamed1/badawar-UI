@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        
+        <!-- meta for mobs -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!--internet explorer-->
+        <meta http-equiv="x-uacompataple" content="IE=edge">
+        
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+         <![endif]-->
+
+        <title>bdwr/ about us</title>
+        
+        <!--bootstrap-->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap_copy.css">
+        
+        <!--font awesome-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        
+        <!-- animate-->
+        <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        
+        <!--fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        
+        <!--jquery ui-->
+        <link rel="stylesheet" href="css/jquery-ui.min.css">
+        
+        <!--normalize-->
+        <link rel="stylesheet" href="css/normalize.css">
+        
+        <!--style-->
+        <link href="css/style.css" rel="stylesheet">
+        
+    </head>
+    <body style="background-color: #e4e0e0;">
+        <div class="fees p-5 ">
+        <div class="fees-table jumbotron jumbotron-fluid">
+            <div class="container-fluid">
+                <!--icons-->
+                <div class="col-12 text-right mt-0">
+                    <div class="icons">
+                        <span><i class="fas fa-edit"></i></span>
+                    </div>
+                </div>
+                <!--year-->
+                <div class="col-12 text-center">
+                    <h4>Fees Table</h4>
+                    <!-- Your DatePicker -->
+                    <input class='datepicker'/>
+                </div>
+                <div class="col-12">
+                    <!-- nav bar tabs for curriculum.-->
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="american-tab" data-toggle="tab" href="#american" role="tab" aria-controls="american"     aria-selected="true">
+                                <input type="text" class="form-control" placeholder="curriculum">
+                            </a>
+                        </li>
+                        <li class="nav-item float-right ml-auto mt-3">
+                            <span data-toggle="tooltip" data-placement="top" title="add curriculum"><i class="fas fa-plus"></i></span>  
+                       </li>
+                    </ul>
+                    <!--school data-->
+                    <div class="tab-content" id="myTabContent">
+                      <div class="tab-pane fade show active" id="american" role="tabpanel" aria-labelledby="american-tab">
+                        <div class="row">
+                            <table class="table table-hover">
+                              <thead>
+                                <tr>
+                                  <th scope="col">School Name (grades)</th>
+                                  <th scope="col">New Corner Student</th>
+                                  <th scope="col">Returning Student</th>
+                                  <th scope="col">Locked Fees</th>
+                                  <th scope="col">Add</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                   <th scope="row"><input type="text" class="form-control" placeholder="KG1"></th>
+                                   <td><input type="text" class="form-control" placeholder="L.E 20000"></td>
+                                   <td><input type="text" class="form-control" placeholder="L.E 20000"></td>
+                                   <td><input type="checkbox" class="form-check-input" id="exampleCheck1"></td>
+                                   <td><span data-toggle="tooltip" data-placement="top" title="add row"><i class="fas fa-plus"></i></span></td>
+                                  </tr>
+                              </tbody>
+                            </table> 
+                            <form class="form p-2 mt-2 w-100">
+                            <!--bus fees-->
+                                <hr>
+                                <div class="form-group message mb-2 w-100">
+                                    <label for="staticMessage" class="sr-only">bus fees</label>
+                                    <input type="text" readonly class="form-control-plaintext" id="staticMessage" value="Bus Fees">
+                                </div>
+
+                                <div class="mt-4 d-inline-block bus-fees-row">
+                                    <div class="form-group bus-fees d-inline-block">
+                                        <input type="text" class="form-control" placeholder="Bus Fees">
+                                    </div>
+                                    <div class="form-group description d-inline-block"> 
+                                        <input type="text" class="form-control" placeholder="Description">
+                                    </div>
+                                </div>
+                                <!--add bus fees row-->
+                                <div class="form-group icons d-inline-block">
+                                    <span class="p-1 add-busfees-row"><i class="fas fa-plus"></i></span>
+                                    <span class="p-1 delete-busfees-row"><i class="fas fa-trash"></i></span>
+                                </div>
+                                <hr>
+                                <!--registration period-->
+                                <div class="form-group message mb-2 w-100">
+                                    <label for="staticMessage" class="sr-only">Message</label>
+                                    <input type="text" readonly class="form-control-plaintext" id="staticMessage" value="Open For Registration">
+                                </div>
+                                <div class="form-group start-date d-inline-block mb-2">
+                                    <label for="inputDate" class="">From</label>
+                                    <input type="date" class="form-control" id="inputDate" placeholder="dd/mm/yyyy">
+                                </div>
+                                <div class="form-group end-date d-inline-block mb-2">
+                                    <label for="inputDate" class="">To</label>
+                                    <input type="date" class="form-control" id="inputDate" placeholder="dd/mm/yyyy">
+                                </div>
+                            </form>
+                        </div>  
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <footer class="text-center">
+            <ul class="p-0">
+                <li><a href="#" data-toggle="modal" data-target="#modalFees" class="modalopener">My Account</a></li>
+                <li><a href="#">About US</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#modalContact" class="modalopener">Contact Us</a></li>
+                <li><a href="#">Terms&amp;Conditions</a></li>
+            </ul>
+        </footer>
+        
+        
+        <!-- Modal fees -->
+        <div class="modal fade p-0" id="modalFees" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content contactContent">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">fees Table</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="fees-table">
+                    <div class="container-fluid">
+                        <!--year-->
+                        <div class="col-12 text-center">
+                            <p>
+                                <span><i class="fas fa-angle-left"></i></span>
+                                <span> 2018 </span>
+                                -
+                                <span> 2019 </span>
+                                <span><i class="fas fa-angle-right"></i></span>
+                            </p>
+                        </div>
+                        
+                        
+                        <div class="col-12">
+                            <!-- nav bar tabs for curriculum.-->
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                              <li class="nav-item">
+                                <a class="nav-link active" id="american-tab" data-toggle="tab" href="#american" role="tab" aria-controls="american" aria-selected="true">
+                                    <input type="text" class="form-control" placeholder="curriculum">
+                                </a>
+                              </li>
+                              <li class="nav-item float-right ml-auto mt-3">
+                                <span data-toggle="tooltip" data-placement="top" title="add curriculum"><i class="fas fa-plus"></i></span>  
+                              </li>
+                            </ul>
+                            <!--school data-->
+                            <div class="tab-content" id="myTabContent">
+                              <div class="tab-pane fade show active" id="american" role="tabpanel" aria-labelledby="american-tab">
+                                <div class="row">
+                                    <table class="table table-hover">
+                                      <thead>
+                                        <tr>
+                                          <th scope="col">School Name (grades)</th>
+                                          <th scope="col">New Corner Student</th>
+                                          <th scope="col">Returning Student</th>
+                                          <th scope="col">Locked Fees</th>
+                                          <th scope="col">Add</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <th scope="row"><input type="text" class="form-control" placeholder="KG1"></th>
+                                          <td><input type="text" class="form-control" placeholder="L.E 20000"></td>
+                                          <td><input type="text" class="form-control" placeholder="L.E 20000"></td>
+                                          <td><input type="checkbox" class="form-check-input" id="exampleCheck1"></td>
+                                          <td><span data-toggle="tooltip" data-placement="top" title="add row"><i class="fas fa-plus"></i></span></td>
+                                        </tr>
+                                      </tbody>
+                                    </table> 
+                                    <form class="form p-2 mt-2 w-100">
+                                        <!--bus fees-->
+                                        <div class="form-group message mb-2 w-100">
+                                            <label for="staticMessage" class="sr-only">bus fees</label>
+                                            <input type="text" readonly class="form-control-plaintext" id="staticMessage" value="Bus Fees">
+                                        </div>
+                                        <hr>
+                                        <div class="mt-4 d-inline-block bus-fees-row">
+                                            <div class="form-group bus-fees d-inline-block">
+                                                <input type="text" class="form-control" placeholder="Bus Fees">
+
+                                            </div>
+                                            <div class="form-group description d-inline-block"> 
+                                                <input type="text" class="form-control" placeholder="Description">
+                                            </div>
+
+                                        </div>
+                                        <!--add bus fees row-->
+                                        <div class="form-group icons d-inline-block">
+                                            <span class="p-1 add-busfees-row"><i class="fas fa-plus"></i></span>
+                                            <span class="p-1 delete-busfees-row"><i class="fas fa-trash"></i></span>
+                                        </div>
+                                        <hr>
+                                        <!--registration period-->
+                                        <div class="form-group message mb-2 w-100">
+                                            <label for="staticMessage" class="sr-only">Message</label>
+                                            <input type="text" readonly class="form-control-plaintext" id="staticMessage" value="Open For Registration">
+                                        </div>
+                                        <div class="form-group start-date d-inline-block mb-2">
+                                            <label for="inputDate" class="">From</label>
+                                            <input type="date" class="form-control" id="inputDate" placeholder="dd/mm/yyyy">
+                                        </div>
+                                        <div class="form-group end-date d-inline-block mb-2">
+                                            <label for="inputDate" class="">To</label>
+                                            <input type="date" class="form-control" id="inputDate" placeholder="dd/mm/yyyy">
+                                        </div>
+                                    </form>
+                                </div>  
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-green addContact" disabled data-dismiss="modal">Add</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--animate-->
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <!--scripts-->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <!--my script-->
+        <script>
+        $(document).ready(function(){
+            //add bus fees row
+            $(".add-busfees-row").click(function(){
+                $(".bus-fees-row").after("<div  class='mt-4 d-inline-block bus-fees-row'> <div class='form-group bus-fees d-inline-block'><input type='text' class='form-control' placeholder='Bus Fees'></div><div class='form-group description d-inline-block'><input type='text' class='form-control' placeholder='Description'></div> </div>");
+            });
+            //remove bus fees row
+            $(".delete-busfees-row").click(function(){
+                $(".bus-fees-row").remove();
+            });
+            //datepicker
+            $('.datepicker').datepicker({
+                changeMonth: false,
+                changeYear: true,
+                showButtonPanel: true,
+                yearRange: '1950:2999', // Optional Year Range
+                dateFormat: 'yy',
+                onClose: function(dateText, inst) { 
+                var year = $("#ui-datepicker-div .ui-datepicker-year :selected").val();
+                $(this).datepicker('setDate', new Date(year, 0, 1));
+            }
+            });
+            
+        });
+        </script>
+        
+    </body>
+</html>

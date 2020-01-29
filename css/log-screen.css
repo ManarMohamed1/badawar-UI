@@ -1,0 +1,19 @@
+*{ font-family: 'Lato', sans-serif;}
+.col-lg-4{padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 60px;}
+.log-screen .logo img{width: 100%}
+.log-screen .img img{width: 896px;
+    height: 633px;}
+.btn {
+    border: 1px solid #fb9652;
+    transition: color 0.15s ease-in-out,
+        background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out,
+        box-shadow 0.15s ease-in-out;
+    background-color: #fb9652;
+    width: 355px;
+    color: #fff;}
+.btn:hover{background-color: #fff;
+    color: #fb9652;
+    border: 2px solid #fb9652; }

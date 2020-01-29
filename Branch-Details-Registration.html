@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        
+        <!-- meta for mobs -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!--internet explorer-->
+        <meta http-equiv="x-uacompataple" content="IE=edge">
+        
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+         <![endif]-->
+
+        <title>bdwr/ Sign in</title>
+        
+        <!--bootstrap-->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap_copy.css">
+        
+        <!--font awesome-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        
+        <!-- animate-->
+        <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        
+        <!--fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        
+        <!--normalize-->
+        <link rel="stylesheet" href="css/normalize.css">
+        
+        <!--my style
+        <link rel="stylesheet" href="css/log-screen.css">
+        -->
+        
+        <style>
+            *{ font-family: 'Lato', sans-serif;}
+            .container-fluid {
+                width: 100%;
+                padding-right: 0px;
+                padding-left: 0px;}
+            .registration .img img{width: 100%;height: 450px}
+            .registration .container-fluid .img p{
+                position: relative;
+                bottom: 64px;
+                width: 100%;
+                background-color: #169e4a;
+                padding: 20px;
+                opacity: .7;
+                color: #fff;
+            }
+            @media (max-width: 419px) { 
+                .registration .container-fluid .img p{bottom: 88px;}
+            }
+            .registration .container{margin-top: -20px;margin-bottom: 30px}
+            .registration .container p{color: #169e4a;font-size: 20px;}
+            .registration .container label{color: #666;margin-left: 50px;display: block}
+            .registration .container .form-control{width: 100%;margin: auto}
+            .registration .container .form-group .box{
+                -webkit-box-shadow: 0px 0px 40px -6px rgba(71,69,67,1);
+                -moz-box-shadow: 0px 0px 40px -6px rgba(71,69,67,1);
+                box-shadow: 0px 0px 40px -6px rgba(71,69,67,1);
+                border: 1px solid #ccc;
+                border-radius: 7px;
+                padding: 10px;
+                width: 100%;
+                margin: 20px 0
+            }
+            .registration .container .form-control a{}
+            .registration .container .btn{
+                display: block;
+                margin: auto;
+                margin-top: 20px;
+                width: 26%;
+                /* margin-left: 372px; */
+                background-color: #169e4a;
+                color: #FFF;
+                font-size: 18px;
+            }
+            .box div .small-img{width: 80px; height: 80px; background-color: #eee; display: inline-block}
+            .box div .add-img{width: 80px; height: 80px; background-color: #eee; display: inline-block;}
+            .box div .add-img:nth-child(1){ margin: 0 33px}
+            .box div .add-img i{margin-left: 40%; margin-top: 37%; color:#fb9652}
+            .form-row{margin-bottom: 30px}
+            .form-check {
+                padding-left: 4.25rem;
+                padding-top: 1rem;}
+            .registration .container .btn:hover{background-color: #fff;border: 2px solid #169e4a;color: #169e4a}
+            footer{background-color: #fb9652 ;padding: 30px 0 15px;}
+            footer ul{display: inline-block;text-align: center}
+            footer ul li{display: inline-block;
+                padding: 0 5px;
+                border-right: 1px solid #666;}
+            footer ul li:last-of-type{border: 0}
+            footer ul li a, footer ul li a:hover{color: #fff }
+            @media (max-width: 1200px) { 
+                .box div .add-img:first-child{
+                    margin: 0px 17px;
+                }
+            }
+            @media (max-width: 992px){
+                .box div .small-img{width: 65px;height: 65px}
+                .box div .small-img img{width: 65px;height: 65px}
+                .box div .add-img{width: 65px;height: 65px}
+                .box .certificate div:last-child{
+                    margin-left: 0 !important;
+                }
+            }
+            @media (max-width: 320px){
+                .registration .container .btn{width: 35%}
+                .registration .container .form-control {width: 76%;}
+                .registration .container form .form-group a{margin-left: 10px!important}
+                .registration .container form .form-group a:nth-child(2){margin-left: 35px!important}
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="registration">
+            <div class="inner">
+                <div class="container-fluid">
+                    <div class="img">
+                        <figure>
+                            <img src="images/O5MCEB0.jpg" alt="school image">
+                            <p class="text-center">BADAWR IS YOUR BEST WAY TO FIND A SCHOOL</p>
+                        </figure>
+                    </div>
+                </div>
+                <div class="container">
+                    <p>Branch details</p>
+                    <form>
+                      <div class="form-row justify-content-around">
+                        <div class="form-group col-md-4">
+                            <label for="inputPassword4">Bransh Name (English)</label>
+                            <input type="text" class="form-control" id="enterSchoolName" aria-describedby="" >
+                          </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputPassword4">Bransh Short Name (English)</label>
+                            <input type="text" class="form-control" id="enterSchoolName" aria-describedby="" >
+                          </div>
+                          <div class="form-group col-md-4">
+                            <label for="inputPassword4">Bransh Name (Arabic)</label>
+                            <input type="text" class="form-control" id="enterSchoolName" aria-describedby="" >
+                          </div>
+                      </div>
+                      <div class="form-row justify-content-around">
+                        <div class="form-group col-md-4">
+                            <label for="FormControlSelectcity">City</label>
+                            <select class="form-control" id="FormControlSelectcity">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                        <div class="form-group col-md-4">
+                            <label for="FormControlSelectZone">Zone</label>
+                            <select class="form-control" id="FormControlSelectZone">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputPassword4">IB certified</label>
+                            <div class="form-check">
+                              <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="form-row justify-content-around">
+                        <div class="form-group col-md-4">
+                            <label for="inputAddress">Address (English)</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputAddress">Address (Arabic)</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="enterEmail">Shadow Teacher</label>
+                            <div class="form-check">
+                              <input class="form-check-input position-static" type="checkbox" id="enterEmail" value="option1">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="form-row justify-content-around">
+                        <div class="form-group col-md-4">
+                            <label for="enterEmail">Email</label>
+                            <input type="email" class="form-control" id="enterEmail" aria-describedby="" >
+                          </div>
+                        <div class="form-group col-md-4">
+                            <label for="enterPhoneNumber">Phone</label>
+                            <input type="text" class="form-control" id="enterPhoneNumber" aria-describedby="" >
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="enterEmail">IS Main</label>
+                            <div class="form-check">
+                              <input class="form-check-input position-static" type="checkbox" id="enterEmail" value="option1">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="form-row justify-content-around">
+                        <div class="form-group col-md-4">
+                            <label for="inputPassword4">Facebook</label>
+                            <input type="text" class="form-control" id="enterSchoolName" aria-describedby="" >
+                          </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputPassword4">Website</label>
+                            <input type="text" class="form-control" id="enterSchoolName" aria-describedby="" >
+                          </div>
+                          <div class="form-group col-md-4">
+                            <label for="inputPassword4" style="display: block;margin-left: 0px;">Add POI</label>
+                            <input type="email" class="form-control" id="enteremail" aria-describedby="" style="display: inline-block" >
+                            <a href="#" style="display: inline-block;font-size: 15px;"><i class="fas fa-search"></i>My Location</a>
+                          </div>
+                      </div>
+                      <div class="form-row justify-content-around">
+                        <div class="form-group col-md-4">
+                            <label for="inputPassword4">Add Facilities</label>
+                            <div class="box">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="FormControlSelectZone" style="margin-left: 0">Facility type</label>
+                                        <select class="form-control" id="FormControlSelectZone" style="margin: 0">
+                                          <option>1</option>
+                                          <option>2</option>
+                                          <option>3</option>
+                                          <option>4</option>
+                                          <option>5</option>
+                                        </select>
+                                    </div>
+                                </form>
+                                <div>
+                                    <div class="small-img">
+                                        <img src="images/O5MCEB0.jpg" width="80px" height="80px" alt="small image">
+                                    </div>
+                                    <div class="add-img" >
+                                        <i class="fas fa-plus"></i>
+                                    </div>
+                                    <div class="add-img" >
+                                        <i class="fas fa-plus"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <button type="submit" class="btn" style="margin-right: 24px;padding: 0.2rem 0.75rem;">Add</button>
+                                </div>
+                            </div>
+                            <a href="#" style="text-decoration: underline;margin-left: 35px"><i class="fas fa-plus"></i>facility type</a>
+                            <a href="#" style="text-decoration: underline;margin-left: 35px">Computer Laps</a>
+                          </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputPassword4">Add Certificates</label>
+                            <div class="box">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="FormControlSelectZone" style="margin-left: 0">Certificate Name</label>
+                                        <select class="form-control" id="FormControlSelectZone" style="margin: 0">
+                                          <option>1</option>
+                                          <option>2</option>
+                                          <option>3</option>
+                                          <option>4</option>
+                                          <option>5</option>
+                                        </select>
+                                    </div>
+                                </form>
+                                <div class="certificate">
+                                    <div style="display: inline-block">
+                                        <a href="#" style="display: block; margin-bottom: 15px; font-size: 13px; text-decoration: underline; color:#fb9652 ">Compradge ICE</a>
+                                        <div class="small-img">
+                                            <img src="images/O5MCEB0.jpg" width="80px" height="80px" alt="small image">
+                                        </div>
+                                    </div>
+                                    <div style="display: inline-block; margin-left: 20px">
+                                        <a href="#" style="display: block; margin-bottom: 15px; margin-left: 13px; font-size: 13px; text-decoration: underline; color: #169e4a">Add Certificate</a>
+                                        <div class="add-img">
+                                            <i class="fas fa-plus"  style="margin-left: 41%; margin-top: 37%; color:#fb9652"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <button type="submit" class="btn" style="margin-right: 24px;padding: 0.2rem 0.75rem;">Add</button>
+                                </div>
+                            </div>
+                            <a href="#" style="text-decoration: underline;margin-left: 35px"><i class="fas fa-plus"></i>Certificate Name</a>
+                            <a href="#" style="text-decoration: underline;margin-left: 35px">Certificate Name</a>
+                          </div>
+                          <div class="form-group col-md-4">
+                            <label for="inputPassword4">Add Contact</label>
+                            <div class="box">
+                                <div class="image text-center" style="margin: 15px">
+                                    <img src="images/team-1.png" style="border-radius: 50%;border: 1px solid #eee;">
+                                </div>
+                                <form>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="inputName" placeholder="Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="inputMobileNumber" placeholder="Mobile" >
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" id="inputEmail" placeholder="Email" >
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="inputTilte" placeholder="Title" >
+                                        </div>
+                                        <div>
+                                            <button type="submit" class="btn" style="">Add</button>
+                                        </div>
+                                    </form>
+                                 
+                            </div>
+                            <a href="#" style="text-decoration: underline;margin-left: 35px"><i class="fas fa-plus"></i>Contact Name</a>
+                            <a href="#" style="text-decoration: underline;margin-left: 35px">Contact Name</a>
+                          </div>
+                      </div>
+                      <div class="form-row justify-content-around">
+                        <div class="form-group col-md-4">
+                            <label for="inputPassword4">Add Gallry</label>
+                            <div class="box">
+                                <h3 class="text-center" style="color: #169e4a;font-size: 1rem;margin-left: -25px;margin-bottom: 20px;">Galary</h3>
+                                <div>
+                                    <div class="small-img" >
+                                        <img src="images/O5MCEB0.jpg" width="80px" height="80px" alt="small image">
+                                    </div>
+                                    <div class="add-img" >
+                                        <i class="fas fa-plus"></i>
+                                    </div>
+                                    <div class="add-img" >
+                                        <i class="fas fa-plus"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <button type="submit" class="btn" style="margin-right: 24px;padding: 0.2rem 0.75rem;">Add</button>
+                                </div>
+                            </div>
+                            <a href="#" style="text-decoration: underline;margin-right: 10px "><i class="fas fa-plus"></i></a>
+                            <div style="width: 50px;height: 50px;background-color: #eee;display: inline-block;" ></div>
+                            <div style="width: 50px;height: 50px;background-color: #eee;display: inline-block;"></div>
+                            <div style="width: 50px;height: 50px;background-color: #eee;display: inline-block;"></div>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputPassword4">Fees</label>
+                            <a href="#" class="form-control" style="background-color: #eee;">
+                                <i class="fas fa-plus" style="margin-right: 10px;color: #169e4a;"></i>Acadimic Year Details</a>
+                        </div>
+                        <div class="form-group col-md-4">
+                            
+                        </div> 
+                      </div>
+                      <div class="text-center">
+                        <button type="submit" class="btn">Register</button>
+                      </div>
+                    </form>
+                </div>
+                <footer class="text-center">
+                    <ul>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">About US</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Terms&amp;Conditions</a></li>
+                    </ul>
+                </footer>
+            </div>
+        </div>
+        
+        <!--animate-->
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <!--scripts-->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+    </body>
+</html>

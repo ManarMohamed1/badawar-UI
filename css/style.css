@@ -1,0 +1,211 @@
+/******************************************************************************************************************************************/
+/*about************************************/
+body{background-color: #eee}
+*{ font-family: 'Lato', sans-serif;}
+.container-fluid {
+                width: 100%;
+                padding-right: 0px;
+                padding-left: 0px;}
+.about .img, .help .img {width: 100%;height: 450px;
+              background-image: url("../images/O5MCEB0.jpg");
+              background-size: cover;
+              background-position: center;}
+.about .container-fluid .img p,.help .container-fluid .img p{
+                width: 100%;
+                background-color: #169e4a;
+                height: 60px;
+                opacity: .7;
+                color: #fff;
+            }
+@media (max-width: 419px) {
+.about .container-fluid .img p, .help .container-fluid .img p{bottom: 88px;}
+}
+.about-box{
+    background-color:#dad8d8;
+}
+/* Grow */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/* Shrink */
+.hvr-shrink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+.jumbotron{background-color: #fff}
+.jumbotron h1{color: #fb9652}
+.jumbotron .lead,.terms .lead ,.help .lead{color: #444;font-size: 1.1rem;}
+.about .row .col-lg-7{background-color: #fff;}
+.about .row .col-lg-7 h3,.about-box .team h3{color: #169e4a}
+.about .row .col-lg-7 p{color: #555}
+/*********************************************************************************************************/
+/*terms*************************,.about-box .team h3*******/
+.terms h1{
+    color: #fb9652
+}
+.terms h5{color: #169e4a}
+/*contact us****************************************
+.sharer{z-index: 100;
+    left:-30px;
+    right: auto;
+    position: fixed;
+    bottom: 20%;
+    width: 40px;   
+}
+
+*/
+.contact{
+    background-color: #eee;
+}
+.contact > .row{border: 3px solid #169e4a;}
+.contact > .row .col-lg-3{background-color: #dad5d5;}
+.contact .sharer .share {
+    display: block;
+    margin: 5px;
+    padding: 10px;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: .9em;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 20px;
+    opacity: .9;
+    color: #666;
+}
+.sharer .share:hover{}
+.fa{background-color: #3c5a98;color: #fff}
+.tw{background-color: #2daae4;color: #fff}
+.gl{background-color: #da2713;color: #fff}
+.at{background-color: #52555c;color: #fff}
+.en{background-color: #fb9652;color: #fff}
+.mr{background-color: #17271d;color: #fff}
+.contact .sharer .share:hover{background-color: #fff;color: #169e4a}
+.sharer .share i {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 2;
+    margin-right: 10px;}
+.contact .btn{    border: 2px solid #169e4a;
+    color: #666;
+    background-color: #fff}
+.contact .btn:hover{color: #169e4a}
+.text-dark {color: #169e4a !important;}
+/*help**********************************************/
+.help h1{color: #fff}
+.help h2 , .help h4{color: #169e4a}
+.help .questions ,.help .answers{
+    background-color: #fff;
+    transition: all 1s ease;
+}
+.help .questions .list-group-item:hover{background-color: #169e4a;color: #fff}
+/*comment*****************/
+.comment header{
+    background-color: #fb9652;
+    color: #fff
+}
+.setting h2{color: #fb9652}
+.comment .comment-section{background-color: #fff;border: 1px solid #ccc;}
+.comment .search .col-12 .form-inline .form-group {width:90%;}
+.comment .search .col-12 .form-inline .comment-icons{width: 10%}
+.comment .search .col-12 .form-inline .form-control {width: 100%;}
+.comment .search .comment-icons span{font-size: 16px;color: #777;cursor: pointer}
+.comment .search .comment-icons span i:hover{color: #fb9652}
+.comment .img-head-content ul li{list-style: none}
+.comment .img-head-content ul li{color: #777}
+.comment .img-head-content ul li h4{color: #444}
+.comment .comment-icons span{font-size: 16px;color: #777;cursor: pointer}
+.comment .comment-icons .rating{font-size: 10px;}
+.comment .comment-icons .rating i{color: #777;}
+.comment .comment-icons .rating i:hover,.comment .comment-icons span i:hover{color: #fb9652}
+.comment p{color: #555}
+.comment .col-12 .form-inline .form-group {width: 90%;}
+.comment .comment-section .col-12 .form-inline .form-control {width: 100%;}
+.comment .btn{border: 2px solid #fb9652; color: #fb9652;background-color: #fff}
+.comment .btn:hover{background-color: #fb9652;color: #fff}
+@media (max-width: 414px){
+    .comment .search .col-12 .form-inline .form-group {
+        width: 66%; !important;}
+    .search .comment-icons {margin-top: -10px}
+    .comment .btn{width: 90%}
+}
+@media (min-width: 415px) and (max-width: 999px) {
+
+}
+/*modal*******/
+.modal-header{
+    background-color: #fb9652;
+    color: #fff
+}
+.form-group label{color: #fb9652}
+.form-check label{color: #777}
+.form-check label:active{color: #fb9652}
+#modalFiltering .form-check .form-check-label{color: #169e4a}
+#modalFiltering .form-control,#modalFiltering input[type="range"]{width: 70%}
+#modalFiltering .form-group label{width: 25%}
+/*contacts***********************/
+.contacts .card-body span{color: #fb9652}
+.contacts .card-body input[type="text"]{color: #555}
+.contacts .overlay span{color: #fb9652;font-size: 20px}
+.contacts .overlay {opacity: 0;transition: all 1s ease}
+.contacts .overlay:hover{opacity: .8}
+.contacts .btn{padding: 0.375rem 2.75rem;}
+/*fees*************************************************/
+.fees .add-table .btn{background-color: #fff;border: 2px solid #fb9652; color: #777}
+.fees .add-table .btn:hover{color: #fb9652}
+.fees .fees-table h4{color: #fb9652}
+.fees .fees-table p,#modalFees .fees-table p,.fees .fees-table table tbody,.fees .fees-table a,#modalFees .fees-table a,.fees .form .form-group label,.fees .icons span,#modalFees .icons span, #modalFees li:last-child{color: #777}
+.fees .nav-tabs .nav-link.active,.fees .nav-tabs .nav-item.show .nav-link, #modalFees .nav-tabs .nav-link.active,#modalFees .nav-tabs .nav-item.show .nav-link{
+    color: #fb9652;
+    background-color: #fff;
+    border-color: #c2c4c5 #c2c4c5 #fff;}
+.fees .fees-table table thead,#modalFees .fees-table table thead{background-color: #eee;color: #fb9652}
+.fees .table{border-bottom: 1px solid #e2e2e2;}
+.fees .form .bus-fees-row{width: 90%}
+.fees .form .bus-fees{width: 30%}
+.fees .form .description{width: 65%}
+.fees .form icons{width: 10%}
+.fees .form .start-date,.fees .form .end-date{width: 49%}
+.fees .form .message input, #modalFees .form .message input{color: #fb9652}
+.fees .icons span:hover,#modalFees .icons span:hover,#modalFees .Nav li:last-child:hover{color: #fb9652}
+.fees .fees-table .btn{color: #fff; background-color: #fb9652}
+#modalFees .nav-tabs .nav-link.active,#modalFees .nav-tabs .nav-item.show .nav-link{width: 60%}
+.fees .form-control, #modalFees .form-control{
+}
+.table th, .table td {
+    text-align: center;
+}
+/* Style to hide Dates / Months */
+  .ui-datepicker-calendar,.ui-datepicker-month { display: none; }
+
+/*footer************************/
+footer{background-color: #fb9652 ;padding: 30px 0 15px;}
+footer ul{display: inline-block;text-align: center}
+footer ul li{display: inline-block;
+                padding: 0 5px;
+                border-right: 1px solid #666;}
+footer ul li:last-of-type{border: 0}
+footer ul li a, footer ul li a:hover{color: #fff }
